@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F2696F824C0B51A0062D8A0 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2696F724C0B51A0062D8A0 /* UserSettings.swift */; };
+		7F2696FA24C0C0780062D8A0 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2696F924C0C0780062D8A0 /* Map.swift */; };
 		7F48C59224C0B1AC00262550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F48C59124C0B1AC00262550 /* AppDelegate.swift */; };
 		7F48C59424C0B1AC00262550 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F48C59324C0B1AC00262550 /* SceneDelegate.swift */; };
 		7F48C59624C0B1AC00262550 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F48C59524C0B1AC00262550 /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F2696F724C0B51A0062D8A0 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = SOURCE_ROOT; };
+		7F2696F924C0C0780062D8A0 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		7F48C58E24C0B1AB00262550 /* tabViewNabView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tabViewNabView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F48C59124C0B1AC00262550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F48C59324C0B1AC00262550 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,9 +60,11 @@
 		7F48C59024C0B1AB00262550 /* tabViewNabView */ = {
 			isa = PBXGroup;
 			children = (
+				7F2696F724C0B51A0062D8A0 /* UserSettings.swift */,
 				7F48C59124C0B1AC00262550 /* AppDelegate.swift */,
 				7F48C59324C0B1AC00262550 /* SceneDelegate.swift */,
 				7F48C59524C0B1AC00262550 /* ContentView.swift */,
+				7F2696F924C0C0780062D8A0 /* Map.swift */,
 				7F48C59724C0B1D600262550 /* Assets.xcassets */,
 				7F48C59C24C0B1D600262550 /* LaunchScreen.storyboard */,
 				7F48C59F24C0B1D600262550 /* Info.plist */,
@@ -146,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F2696FA24C0C0780062D8A0 /* Map.swift in Sources */,
 				7F48C59224C0B1AC00262550 /* AppDelegate.swift in Sources */,
+				7F2696F824C0B51A0062D8A0 /* UserSettings.swift in Sources */,
 				7F48C59424C0B1AC00262550 /* SceneDelegate.swift in Sources */,
 				7F48C59624C0B1AC00262550 /* ContentView.swift in Sources */,
 			);
